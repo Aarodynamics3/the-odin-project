@@ -1,12 +1,13 @@
 #top {
-    margin: 0em;
+    margin: 0px;
     padding: 0%;
+    font-family: sans-serif;
 }
 
 #bottom {
-    margin: 0em;
+    margin: 0px;
     padding: 0%;
-    
+    font-family: sans-serif;
 }
 
 ul {
@@ -14,7 +15,7 @@ ul {
 }
 
 #top ul {
-    margin: 0em;
+    margin: 0px;
     padding: 0%;
 }
 
@@ -23,11 +24,11 @@ ul {
 }
 
 #top li.top-gap {
-    margin-left: 6em;
+    margin-left: 1000px;
 }
 
 #bottom ul {
-    margin: 0em;
+    margin: 0px;
     padding: 0%;
 }
 
@@ -36,13 +37,21 @@ ul {
 }
 
 #bottom li.bottom-gap {
-    margin-right: 5em;
+    margin-right: 80px;
 }
 
 #logo {
-    margin-top: 6em;
+    margin-top: 80px;
 }
 
 #buttons {
-    margin-bottom: 6em;
+    margin-bottom: 80px;
+}
+
+input[type=text] {
+    border: 1px solid lightgray;
+    width: 500px;
+    margin: 10px;
+    padding: 1%;
+    border-radius: 60px;
 }
