@@ -1,0 +1,48 @@
+#top {
+    margin: 0em;
+    padding: 0%;
+}
+
+#bottom {
+    margin: 0em;
+    padding: 0%;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+#top ul {
+    margin: 0em;
+    padding: 0%;
+}
+
+#top li {
+    display: inline;
+}
+
+#top li.top-gap {
+    margin-left: 6em;
+}
+
+#bottom ul {
+    margin: 0em;
+    padding: 0%;
+}
+
+#bottom li {
+    display: inline;
+}
+
+#bottom li.bottom-gap {
+    margin-right: 5em;
+}
+
+#logo {
+    margin-top: 6em;
+}
+
+#buttons {
+    margin-bottom: 6em;
+}
