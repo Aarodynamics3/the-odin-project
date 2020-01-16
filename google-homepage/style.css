@@ -1,13 +1,35 @@
-#top {
+#top, #bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+}
+
+#top ul.navbar #top-left {
     margin: 0px;
-    padding: 0%;
-    font-family: sans-serif;
+    padding-left: 17px;
+    padding-top: 15px;
+    position: absolute;
+}
+
+#top ul.navbar #top-left .about {
+    padding-right: 10px;
+}
+
+#top ul.navbar #top-right {
+    margin: 0px;
+    position: flex;
+    float: right;
+    padding-right: 25px;
+    padding-top: 15px;
+}
+
+#top ul.navbar #top-right li.top-text{
+    padding-left: 10px;
 }
 
 #bottom {
     margin: 0px;
     padding: 0%;
-    font-family: sans-serif;
 }
 
 ul {
@@ -33,9 +55,9 @@ ul {
 }
 
 #logo {
-    background-color: blue;
     width: 272px;
-    padding: 0%;
+    padding-top: 148px;
+    padding-bottom: 22px;
     margin: 0 auto;
 }
 
@@ -53,7 +75,7 @@ ul {
     padding: 8px 15px 8px 15px;
     text-decoration: none;
     border: 1px solid rgb(233, 233, 233);
-    font-size: 14;
+    font-size: 14px;
     color: rgb(95, 99, 104);
 }
 
@@ -68,11 +90,12 @@ ul {
 #search-bar {
     width: 552px;
     margin: 0 auto;
+    background-color: aqua;
 }
 
 #search-bar input[type=text] {
     background-color: transparent;
-    border: 1px solid lightgray;
+    border: 1px solid rgb(223, 225, 229);
     width: 550px;
     padding: 0;
     border-radius: 60px;
@@ -97,13 +120,3 @@ input[type=text]:focus {
 #search-bar input {
     padding-left: 35px;
 }
-
-/*
-#top li.top-gap {
-
-}
-
-#bottom li.bottom-gap {
-
-}
-*/
