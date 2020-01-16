@@ -23,10 +23,6 @@ ul {
     display: inline;
 }
 
-#top li.top-gap {
-    margin-left: 1000px;
-}
-
 #bottom ul {
     margin: 0px;
     padding: 0%;
@@ -36,22 +32,78 @@ ul {
     display: inline;
 }
 
-#bottom li.bottom-gap {
-    margin-right: 80px;
-}
-
 #logo {
-    margin-top: 80px;
+    background-color: blue;
+    width: 272px;
+    padding: 0%;
+    margin: 0 auto;
 }
 
 #buttons {
-    margin-bottom: 80px;
+    padding: 0;
+    background-color: blue;
+    width: 285px;
+    margin: 0 auto;
 }
 
-input[type=text] {
-    border: 1px solid lightgray;
-    width: 500px;
-    margin: 10px;
-    padding: 1%;
-    border-radius: 60px;
+#buttons button {
+    background-color: rgb(242, 242, 242);
+    border-radius: 4px;
+    /* top right bottom left CHANGE FROM % PROBABLY*/
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+    border: 1px solid rgb(233, 233, 233);
+    font-size: 14;
+    color: rgb(95, 99, 104);
 }
+
+#buttons button.google-search {
+    margin-right: 6px;
+}
+
+#buttons button:hover {
+    border-color: darkgray;
+}
+
+#search-bar {
+    width: 552px;
+    margin: 0 auto;
+}
+
+#search-bar input[type=text] {
+    background-color: transparent;
+    border: 1px solid lightgray;
+    width: 550px;
+    padding: 0;
+    border-radius: 60px;
+    height: 42px;
+}
+
+#search-bar #search-logo img {
+    /* z-index: -1; */
+    background-color: aquamarine;
+}
+
+input[type=text]:hover {
+    /* in order for box-shadow: x offset, y offset, blur size, spread size, color */
+    box-shadow: 0px 0px 4px 1px lightgray;
+}
+
+input[type=text]:focus {
+    /* in order for box-shadow: x offset, y offset, blur size, spread size, color */
+    box-shadow: 0px 0px 4px 1px lightgray;
+}
+
+#search-bar input {
+    padding-left: 35px;
+}
+
+/*
+#top li.top-gap {
+
+}
+
+#bottom li.bottom-gap {
+
+}
+*/
