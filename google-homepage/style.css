@@ -12,7 +12,7 @@
 }
 
 #top ul.navbar #top-left .about {
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 #top ul.navbar #top-right {
@@ -24,12 +24,21 @@
 }
 
 #top ul.navbar #top-right li.top-text{
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 #bottom {
     margin: 0px;
-    padding: 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* top/bottom left/right */
+    padding: 12.5px 30px;
+    border-top: 1px solid rgb(233, 233, 233);
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    
 }
 
 ul {
@@ -56,14 +65,13 @@ ul {
 
 #logo {
     width: 272px;
-    padding-top: 148px;
+    padding-top: 190px;
     padding-bottom: 22px;
     margin: 0 auto;
 }
 
 #buttons {
-    padding: 0;
-    background-color: blue;
+    padding-top: 32px;
     width: 285px;
     margin: 0 auto;
 }
@@ -90,21 +98,15 @@ ul {
 #search-bar {
     width: 552px;
     margin: 0 auto;
-    background-color: aqua;
 }
 
 #search-bar input[type=text] {
     background-color: transparent;
     border: 1px solid rgb(223, 225, 229);
-    width: 550px;
-    padding: 0;
+    width: 515px;
+    padding-left: 35px;
     border-radius: 60px;
     height: 42px;
-}
-
-#search-bar #search-logo img {
-    /* z-index: -1; */
-    background-color: aquamarine;
 }
 
 input[type=text]:hover {
@@ -117,6 +119,26 @@ input[type=text]:focus {
     box-shadow: 0px 0px 4px 1px lightgray;
 }
 
-#search-bar input {
-    padding-left: 35px;
+#bottom ul.footer #bottom-right {
+    position: absolute;
+    right: 0;
+    padding-right: 30px;
+    bottom: 12px;
+}
+
+#bottom ul.footer #bottom-right li {
+    padding-left: 23px;
+}
+
+#bottom ul.footer #bottom-left li {
+    padding-right: 23px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li a {
+    color: rgb(95, 99, 104);
+    text-decoration: none;
 }
