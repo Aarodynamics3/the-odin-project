@@ -61,5 +61,3 @@ function game() {
         console.log("It is a tie with a score of " + playerScore + " to " + computerScore);
     }
 }
-
-game();
